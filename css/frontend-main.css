@@ -4567,7 +4567,6 @@ ul.nav li ul.submenu li:hover {
 }
 
 #sidebar {
-  display: none;
   background-color: #242424;
   width: 270px;
   position: fixed;

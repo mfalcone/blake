@@ -217,23 +217,7 @@ handleAssetsLoad = function ( evt )
         theinterval = setInterval(function(){ disableSideBar(); }, 3000);
     });
     
-    if (!(/campus-map/i.test(window.location)))
-    {    
-        theinterval = setInterval(function(){ disableSideBar(); }, 4000);
-
-        setTimeout(function(){ 
-            enableSideBar(); 
-            //theinterval = setInterval(function(){ disableSideBar(); }, 3000);
-        }, 1000);
-
-
-
-        launchPopupOnLoad();
-    } 
-    else
-    {
-        $('.btn_areas_list').css('display', 'none');
-    }    
+  
 }
  
 manifest = 
