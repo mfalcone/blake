@@ -121,6 +121,69 @@
                 }    ,
             //------------------------------------------
   
+            
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '4',
+                    naming_opp  : 'cafeteria-building/b.bookstore.html',                    
+                    external_link: 'dining-hall.php',
+                    pointer_pos : [979.5, 492.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(903.8, 492.6);
+      ctx.lineTo(971.7, 470.3);
+      ctx.lineTo(979.9, 474.7);
+      ctx.lineTo(1096.7, 435.1);
+      ctx.lineTo(1093.4, 432.0);
+      ctx.lineTo(1138.1, 417.2);
+      ctx.lineTo(1190.5, 442.5);
+      ctx.lineTo(1190.5, 456.5);
+      ctx.lineTo(1146.5, 481.5);
+      ctx.lineTo(1146.5, 484.5);
+      ctx.lineTo(1123.5, 492.5);
+      ctx.lineTo(1123.5, 498.5);
+      ctx.lineTo(1109.6, 503.8);
+      ctx.lineTo(1109.1, 511.8);
+      ctx.lineTo(1118.4, 518.1);
+      ctx.lineTo(1117.6, 520.0);
+      ctx.lineTo(1076.6, 535.4);
+      ctx.lineTo(1074.1, 534.3);
+      ctx.lineTo(1015.3, 556.8);
+      ctx.lineTo(1013.7, 558.2);
+      ctx.lineTo(987.6, 567.6);
+      ctx.lineTo(987.0, 569.5);
+      ctx.lineTo(968.9, 576.9);
+      ctx.lineTo(944.4, 559.6);
+      ctx.lineTo(885.6, 581.0);
+      ctx.lineTo(879.3, 576.9);
+      ctx.lineTo(876.0, 579.1);
+      ctx.lineTo(841.6, 552.7);
+      ctx.lineTo(835.8, 554.6);
+      ctx.lineTo(803.7, 529.6);
+      ctx.lineTo(866.1, 508.5);
+      ctx.lineTo(879.3, 508.7);
+      ctx.lineTo(903.7, 499.1);
+      ctx.lineTo(903.7, 499.1);
+      ctx.lineTo(903.8, 492.6);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,     
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Cafeteria',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+
+
+
             ];
 
     </script>                    
