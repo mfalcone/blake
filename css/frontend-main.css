@@ -4384,13 +4384,9 @@ body {
   margin: 0;
 }
 
-#header:hover {
-  height: 106px;
-}
-
 #header {
-  background: url(../images/bg_header.jpg) repeat-x top;
-  height: 77px;
+  background: #055da7;
+  height: 102px;
   z-index: 99;
   position:absolute; /*hardkito*/
 }
@@ -4432,29 +4428,29 @@ ul.nav {
   position: relative;
 }
 ul.nav li {
-  background: #242424;
+  background: #055da7;
   display: inline-block;
   /*float:right;*/
   margin: 0;
   padding: 0;
-  height: 76px;
+  height: 102px;
 }
 ul.nav li.sub {
-  height: 76px;
+  height: 102px; 
 }
 ul.nav li a {
   color: white;
   text-transform: uppercase;
-  line-height: 79px;
+  line-height: 102px;
 }
 ul.nav li.area a {
-  color: #acc37e;
+  color: #FFF;
 }
 ul.nav li:hover, ul.nav li.active {
-  background: #acc37e;
+  background: #02457c;
 }
 ul.nav li:hover a, ul.nav li.active a {
-  color: #242424;
+  color: #FFF;
 }
 /*ul.nav li:hover .submenu, ul.nav li.active .submenu {*/
 ul.nav li.active .submenu {

@@ -37,7 +37,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Performing Arts',
+                        text: 'Athletic Projects',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -73,7 +73,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Athletics',
+                        text: 'Dining Commons',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -114,7 +114,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Cafeteria',
+                        text: 'MacMillan Performing Arts Center',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -176,7 +176,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Cafeteria',
+                        text: 'Entry Hall',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -295,7 +295,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Cafeteria',
+                        text: 'Ice Arena',
                         fontSize: 14,                         
                         align: 'center'            
                     }        

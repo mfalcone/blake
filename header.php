@@ -5,21 +5,21 @@
             <i class="fa fa-bars fa-2x"></i>
         </a>
         <div class="_r">
-            <div class="_2">
+            <div class="_1">
                 <div class="outerContent">
                     <div class="innerContent">
                         <a href="index.php">
                             <h1 class="logo">
-                                <img src="images/logo.png" alt="Building Community" />
+                                <img src="images/logo.jpg" alt="Blake School" />
                             </h1>
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="_8">
+            </div> 
+            <div class="_10">
                 <?php include('menu.php'); ?>                
             </div>
-            <div class="_2 social">
+            <div class="_1 social">
                 <a target="_blank" href="https://www.facebook.com/GreenhillSchool" class="twit"></a>
                 <a target="_blank" href="https://www.twitter.com/GreenhillSchool/" class="face"></a>
             </div>
