@@ -128,7 +128,7 @@
                     //==================================
                     name        : '4',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
-                    external_link: 'dining-hall.php',
+                    external_link: 'entry-hall.php',
                     pointer_pos : [979.5, 492.0],
                     sceneFunc: function(ctx) 
                     {

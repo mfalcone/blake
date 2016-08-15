@@ -6,7 +6,7 @@
     <script type="text/javascript">
 
         // current background image located on images/floorplans/[big-medium-small]
-        current_bg_name = 'mpac';            
+        current_bg_name = 'entry-hall';            
         
         var AreasSettingsList = 
             [
@@ -16,66 +16,8 @@
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '105',
-                    naming_opp  : 'mpac/dnd-5000.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$5000,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '9',
-                    naming_opp  : 'mpac/a.theaters-seats.html',
-                    pointer_pos : [705.1, 638.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(707.9, 646.4);
-                          ctx.lineTo(727.5, 640.9);
-                          ctx.lineTo(730.1, 645.2);
-                          ctx.lineTo(707.0, 651.8);
-                          ctx.lineTo(707.9, 646.4);
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Theater seats',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-
-
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
-                    name        : '110',
-                    naming_opp  : 'mpac/dnd-500.html',
+                    name        : '1',
+                    naming_opp  : 'entry-hall/eh-500.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -102,17 +44,20 @@
                     //==================================
                     // Basic settings
                     //==================================
-                    name        : '10',
-                    naming_opp  : 'mpac/b.north-south-gallery.html',
-                    pointer_pos : [1370, 338.0],
+                    name        : '2',
+                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    pointer_pos : [955.1, 638.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(1336.0, 135.3);
-                          ctx.lineTo(1399.3, 135.3);
-                          ctx.lineTo(1399.3, 545.0);
-                          ctx.lineTo(1336.0, 545.0);
-                          ctx.lineTo(1336.0, 135.3);
-                      },
+                        ctx.moveTo(869.5, 566.0);
+                          ctx.lineTo(1158.4, 566.0);
+                          ctx.lineTo(1158.4, 696.5);
+                          ctx.lineTo(682.5, 696.5);
+                          ctx.lineTo(681.5, 588.5);
+                          ctx.lineTo(840.9, 587.6);
+                          ctx.lineTo(869.5, 559.0);
+                          ctx.lineTo(869.5, 566.0);
+                    },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
                     strokeWidth : 1,        
@@ -121,18 +66,18 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'North/South Gallery',
+                        text: 'Drop Off Circle',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
                 }    ,
-
-                 //==================================
+                
+                //==================================
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '100',
-                    naming_opp  : 'mpac/dnd-50.html',
+                    name        : '3',
+                    naming_opp  : 'entry-hall/eh-100.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -149,7 +94,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$50,000</span>',
+                        text: '<span>$100,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -159,48 +104,16 @@
                     //==================================
                     // Basic settings
                     //==================================
-                    name        : '8',
-                    naming_opp  : 'mpac/c.green-room.html',
-                    pointer_pos : [600.1, 330.0],
+                    name        : '4',
+                    naming_opp  : 'entry-hall/b.welcome-security-desk.html',
+                    pointer_pos : [760.1, 510.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(507.0, 270.5);
-                          ctx.lineTo(731.5, 270.5);
-                          ctx.lineTo(731.5, 406.5);
-                          ctx.lineTo(506.0, 406.5);
-                          ctx.lineTo(507.0, 270.5);
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Green room',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '9',
-                    naming_opp  : 'mpac/d.wing-space-scene-shop.html',
-                    pointer_pos : [850.1, 480.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(813.4, 314.5);
-                          ctx.lineTo(906.5, 314.5);
-                          ctx.lineTo(905.6, 607.0);
-                          ctx.lineTo(857.0, 549.6);
-                          ctx.lineTo(856.3, 522.5);
-                          ctx.lineTo(813.0, 522.5);
-                          ctx.lineTo(813.4, 314.5);
+                        ctx.moveTo(722.5, 451.7);
+                          ctx.lineTo(786.2, 451.7);
+                          ctx.lineTo(786.2, 561.5);
+                          ctx.lineTo(722.5, 561.5);
+                          ctx.lineTo(722.5, 451.7);
                           
                     },
                     fill        : 'rgba(170,255,0,0.3)',
@@ -211,18 +124,17 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Wing Space/Scene Shop',
+                        text: ' Welcome/Security Desk',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
                 }    ,
-            
                 //==================================
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '101',
-                    naming_opp  : 'mpac/dnd-25.html',
+                    name        : '5',
+                    naming_opp  : 'entry-hall/eh-5m.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -239,7 +151,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$25,000</span>',
+                        text: '<span>$5M,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -249,16 +161,18 @@
                     //==================================
                     // Basic settings
                     //==================================
-                    name        : '7',
-                    naming_opp  : 'mpac/e.dressing-room-1.html',
-                    pointer_pos : [695.1, 220.0],
+                    name        : '6',
+                    naming_opp  : 'entry-hall/c.entry-hall.html',
+                    pointer_pos : [950.0, 520.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(654.5, 149.7);
-                          ctx.lineTo(753.4, 149.5);
-                          ctx.lineTo(753.9, 269.5);
-                          ctx.lineTo(654.5, 269.5);
-                          ctx.lineTo(654.5, 149.7);
+                        ctx.moveTo(870.0, 454.0);
+                          ctx.lineTo(1063.3, 454.0);
+                          ctx.lineTo(1063.3, 564.0);
+                          ctx.lineTo(870.0, 564.0);
+                          ctx.lineTo(870.0, 454.0);
+                        
+                          
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -268,19 +182,17 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Dressing Room 1',
+                        text: ' Entry Hall',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
                 }    ,
-
-
                 //==================================
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '102',
-                    naming_opp  : 'mpac/dnd-0.html',
+                    name        : '7',
+                    naming_opp  : 'entry-hall/eh-250.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -297,7 +209,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$00,000</span>',
+                        text: '<span>$250,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -308,22 +220,18 @@
                     // Basic settings
                     //==================================
                     name        : '8',
-                    naming_opp  : 'mpac/f.stage.html',
-                    pointer_pos : [660.1, 500.0],
+                    naming_opp  : 'entry-hall/d.student-lounge-in-entry-hall.html',
+                    pointer_pos : [1135.0, 490.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(527.0, 411.6);
-                          ctx.lineTo(776.5, 411.0);
-                          ctx.lineTo(776.5, 442.3);
-                          ctx.lineTo(794.7, 446.3);
-                          ctx.lineTo(790.3, 531.0);
-                          ctx.lineTo(763.6, 530.3);
-                          ctx.lineTo(703.0, 580.3);
-                          ctx.lineTo(613.6, 580.3);
-                          ctx.lineTo(613.6, 581.3);
-                          ctx.lineTo(552.0, 530.5);
-                          ctx.lineTo(528.3, 538.5);
-                          ctx.lineTo(527.0, 411.6);
+                        ctx.moveTo(1065.5, 451.3);
+                          ctx.lineTo(1193.7, 451.3);
+                          ctx.lineTo(1193.7, 513.5);
+                          ctx.lineTo(1065.5, 513.5);
+                          ctx.lineTo(1065.5, 451.3);
+                        
+                        
+                          
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -333,14 +241,71 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Stage',
+                        text: ' Student Lounge in Entry Hall',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '9',
+                    naming_opp  : 'entry-hall/d.student-lounge-in-entry-hall.html',
+                    pointer_pos : [1250.0, 320.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1192.5, 284.3);
+                          ctx.lineTo(1320.7, 284.3);
+                          ctx.lineTo(1320.7, 350.5);
+                          ctx.lineTo(1192.5, 350.5);
+                          ctx.lineTo(1192.5, 284.3);
+                        
+                        
+                          
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: ' Student Lounge in Entry Hall (reserved)',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
                 }    ,
 
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '10',
+                    naming_opp  : 'entry-hall/e.exterior-fireplace-plaza.html',
+                    pointer_pos : [1250.0, 240.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1185.5, 191.3);
+                          ctx.lineTo(1318.7, 191.3);
+                          ctx.lineTo(1318.7, 282.5);
+                          ctx.lineTo(1185.5, 282.5);
+                          ctx.lineTo(1185.5, 191.3);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
 
-                
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Exterior Fireplace/Plaza',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
             ];
 
     </script>                    
