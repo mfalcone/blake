@@ -37,7 +37,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Athletic Projects',
+                        text: 'Athletic Field',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -50,7 +50,7 @@
                     //==================================
                     name        : '2',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',
-                    external_link: 'athletics.php',
+                    external_link: 'dining-commons.php',
                     pointer_pos : [805.0, 284],
                     sceneFunc: function(ctx) 
                     {
