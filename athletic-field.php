@@ -234,7 +234,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Concession Stand',
+                        text: 'Concession Standar',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -332,7 +332,7 @@
                     // Basic settings
                     //==================================
                     name        : '33',
-                    naming_opp  : 'athletic-field/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/h.baseball-field.html',
                     pointer_pos : [1190.5, 340.0],
                     sceneFunc: function(ctx) 
                     {
