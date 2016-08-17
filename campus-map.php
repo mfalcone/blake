@@ -86,7 +86,7 @@
                     //==================================
                     name        : '3',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
-                    external_link: 'dining-hall.php',
+                    external_link: 'macmillian.php',
                     pointer_pos : [873.6, 428.6],
                     sceneFunc: function(ctx) 
                     {
@@ -192,7 +192,7 @@
                     //==================================
                     name        : '5',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
-                    external_link: 'dining-hall.php',
+                    external_link: 'ice-arena.php',
                     pointer_pos : [212.3, 558.6],
                     sceneFunc: function(ctx) 
                     {

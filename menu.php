@@ -31,7 +31,7 @@
         <div class="bg_subnav"></div>-->
     </li>
     <li class="area" id="li_cafeteria">
-        <a href="#">Dining Commons</a>
+        <a href="dining-commons.php">Dining Commons</a>
         <!--<ul class="submenu">
             <li><a href="gallery-dining-hall.php">Photo Gallery</a></li>
             <li><a href="dining-hall.php">Floor Plans</a></li>
@@ -39,7 +39,7 @@
         <div class="bg_subnav"></div>-->
     </li>                            
     <li class="area" id="li_athletics">
-        <a href="dining-hall.php">MacMillan Performing Arts Center</a>
+        <a href="macmillian.php">MacMillan Performing Arts Center</a>
         <!--<ul class="submenu">
             <li><a href="gallery-athletics.php">Photo Gallery</a></li>
             <li><a href="athletics.php">Field Plans</a></li>
@@ -49,7 +49,7 @@
     <li class="area" id="entry_hall">
         <a href="entry-hall.php">Entry Hall</a>
     </li>
-        <li class="area" id="ice_arena">
-        <a href="#">Ice Arena</a>
+    <li class="area" id="ice_arena">
+        <a href="ice-arena.php">Ice Arena</a>
     </li>
 </ul>
