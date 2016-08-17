@@ -17,7 +17,7 @@
                 //==================================
                 {
                     name        : '10m',
-                    naming_opp  : 'entry-hall/eh-500.html',
+                    naming_opp  : 'athletic-field/af-10m.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -45,7 +45,7 @@
                     // Basic settings
                     //==================================
                     name        : '23',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/a.outdoor-athletic-complex.html',
                     pointer_pos : [1445.1, 388.0],
                     sceneFunc: function(ctx) 
                     {
@@ -75,7 +75,7 @@
                 //==================================
                 {
                     name        : '1m',
-                    naming_opp  : 'entry-hall/eh-500.html',
+                    naming_opp  : 'athletic-field/af-1m.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -103,7 +103,7 @@
                     // Basic settings
                     //==================================
                     name        : '24',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/b.turf-multiplex.html',
                     pointer_pos : [800.5, 550.0],
                     sceneFunc: function(ctx) 
                     {
@@ -131,7 +131,7 @@
                 //==================================
                 {
                     name        : '500',
-                    naming_opp  : 'entry-hall/eh-500.html',
+                    naming_opp  : 'athletic-field/af-500.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -159,7 +159,7 @@
                     // Basic settings
                     //==================================
                     name        : '25',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/c.upper-courts.html',
                     pointer_pos : [1020.5, 410.0],
                     sceneFunc: function(ctx) 
                     {
@@ -187,7 +187,7 @@
                     // Basic settings
                     //==================================
                     name        : '27',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/d.lower-courts.html',
                     pointer_pos : [750.5, 400.0],
                     sceneFunc: function(ctx) 
                     {
@@ -216,7 +216,7 @@
                     // Basic settings
                     //==================================
                     name        : '32',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/e.concession-stand.html',
                     pointer_pos : [1160.5, 340.0],
                     sceneFunc: function(ctx) 
                     {
@@ -246,7 +246,7 @@
                 //==================================
                 {
                     name        : '100',
-                    naming_opp  : 'entry-hall/eh-500.html',
+                    naming_opp  : 'athletic-field/af-100.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -274,7 +274,7 @@
                     // Basic settings
                     //==================================
                     name        : '26',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/f.individual-courts.html',
                     pointer_pos : [990.5, 440.0],
                     sceneFunc: function(ctx) 
                     {
@@ -303,7 +303,7 @@
                     // Basic settings
                     //==================================
                     name        : '28',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/g.individual-courts.html',
                     pointer_pos : [700.5, 400.0],
                     sceneFunc: function(ctx) 
                     {
@@ -332,7 +332,7 @@
                     // Basic settings
                     //==================================
                     name        : '33',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/a.drop-off-circle.html',
                     pointer_pos : [1190.5, 340.0],
                     sceneFunc: function(ctx) 
                     {
@@ -362,7 +362,7 @@
                 //==================================
                 {
                     name        : '2.5',
-                    naming_opp  : 'entry-hall/eh-500.html',
+                    naming_opp  : 'athletic-field/af-2-5m.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -390,7 +390,7 @@
                     // Basic settings
                     //==================================
                     name        : '29',
-                    naming_opp  : 'entry-hall/a.drop-off-circle.html',
+                    naming_opp  : 'athletic-field/h.baseball-field.html',
                     pointer_pos : [1280.5, 250.0],
                     sceneFunc: function(ctx) 
                     {
