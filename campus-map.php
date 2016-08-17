@@ -16,7 +16,7 @@
                     //==================================
                     name        : '1',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',
-                    external_link: 'performing-arts-main-level.php',
+                    external_link: 'athletic-field.php',
                     pointer_pos : [443.2, 312.2],
                     sceneFunc: function(ctx) 
                     {
