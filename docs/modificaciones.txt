@@ -1,0 +1,52 @@
+Home Page:
+Properly center “plus sign” buttons on facilities.
+Athletics option needs to highlight tennis and baseball field as well
+The baseball field needs to be shown
+The roads need to be labeled
+Excelsior Boulevard along the top
+Blake Road along the right side 
+Why is there orange coloring on some of the spaces?
+Blake Logo is cut off on the top of the point.
+Facebook/Twitter = Wrong school, need to add Instagram. 
+
+Athletics:
+Prices: No “M” on sidebar, just prices for each space
+Remove dead space/create a bigger map. 
+What is the blue coloring?
+Allow for the picture to be framed better or scroll down.
+Center the “plus buttons”
+Lower courts and upper courts need to be switched. 
+Rectangles need to be properly designed on courts
+Plaza needs a description.
+Prices and thumbnail images on each description.
+Athletics spaces on baseball field are not labeled (rows 15-20 on document you were shared)
+Football stands need to be colored in gray.
+Outdoor athletic complex button can be placed above the tennis courts with button that highlights all athletics projects.
+Change Athletic Field to Athletics
+For the Upper Courts and Lower Courts... can you move the main hotspot outside the court... i.e. Upper Court hotspot out of the court and the Individual Court left inside?
+For the Turf/Multiplex... can you move the hot spot off the center logo
+
+Dining Commons:
+Adjust layout of picture, fit frame or scroll option
+Prices are off, please use full number.
+Please recolor the space next to the MacMillan Performing arts center to be the same green as other green spaces that are outdoors.
+Descriptions, prices, thumbnail pictures needed on all spaces. 
+A chair not the steps need to be highlighted for seating prices.
+Entire seating area needs to be colored.
+Missing Hotspot #21 Balcony
+Missing Hotspot #22 East/West Gallery
+
+Entry Hall:
+Buttons, descriptions, price, thumbnail pictures (same as before)
+Drop off circle shaded area needs to form with the semi-circle.
+Entry hall is behind the current spot labeled (this was our error, it was labeled incorrectly with what was provided.
+Exterior Fireplace should say Reserved
+On inside of description Reserved should be in caps and written. No price point listed if reserved.
+Picture is off and needs to be realigned.
+
+Ice Arena:
+Move to the left and realign
+
+general:
+All pricing has to be in numeric form... i.e. 10M has to be $10,000,000
+All descriptions (like Greenhill) need to have pricing... i.e. Upper Courts, $500,000 then the description.  Once the area is sold they will replace the $ with "Reserved"... a few of the Blake areas need to say "Reserved", i.e. one of the Student Lounges has been sold
