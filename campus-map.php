@@ -17,17 +17,23 @@
                     name        : '1',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',
                     external_link: 'athletic-field.php',
-                    pointer_pos : [443.2, 312.2],
+                    pointer_pos : [423.2, 372.2],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(255.66, 255.0);
-      ctx.lineTo(529.6, 206.3);
-      ctx.lineTo(689.6, 303.0);
-      ctx.lineTo(438.3, 361.0);
-      ctx.lineTo(444.3, 403.3);
-      ctx.lineTo(407.6, 413.6);
-      ctx.lineTo(257.0, 266.3);
-      ctx.lineTo(255.66, 255.0);
+                        ctx.moveTo(385.5,471.5);
+                        ctx.lineTo(354.375,480.625);
+                        ctx.lineTo(217.438,343.312);
+                        ctx.lineTo(116,363.5);
+                        ctx.lineTo(104,363.5);
+                        ctx.lineTo(83,335.5);
+                        ctx.lineTo(89.5,331.5);
+                        ctx.lineTo(335,290);
+                        ctx.lineTo(348,291);
+                        ctx.lineTo(381.5,313.5);
+                        ctx.lineTo(458,300.5);
+                        ctx.lineTo(600.5,384);
+                        ctx.lineTo(382,434.5);
+                        ctx.lineTo(385.5,471.5);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -51,19 +57,18 @@
                     name        : '2',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',
                     external_link: 'dining-commons.php',
-                    pointer_pos : [805.0, 284],
+                    pointer_pos : [705.0, 364],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(719.0, 287.0);
-      ctx.lineTo(861.3, 254.0);
-      ctx.lineTo(897.0, 270.3);
-      ctx.lineTo(897.0, 272.3);
-      ctx.lineTo(893.3, 273.3);
-      ctx.lineTo(901.6, 276.6);
-      ctx.lineTo(738.0, 316.3);
-      ctx.lineTo(728.6, 311.3);
-      ctx.lineTo(728.6, 293.3);
-      ctx.lineTo(719.0, 287.0);
+                        ctx.moveTo(631.929,375.218);
+                        ctx.lineTo(632.285,391.222);
+                        ctx.lineTo(639.99,395.134);
+                        ctx.lineTo(782.484,361.466);
+                        ctx.lineTo(774.186,357.792);
+                        ctx.lineTo(777.387,356.606);
+                        ctx.lineTo(747.582,341.817);
+                        ctx.lineTo(622.92,369.883);
+                        ctx.lineTo(631.929,375.218);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -87,24 +92,24 @@
                     name        : '3',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
                     external_link: 'macmillian.php',
-                    pointer_pos : [873.6, 428.6],
+                    pointer_pos : [773.6, 508.6],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(900.0, 397.3);
-      ctx.lineTo(929.0, 414.3);
-      ctx.lineTo(976.0, 419.0);
-      ctx.lineTo(985.3, 423.6);
-      ctx.lineTo(985.6, 443.0);
-      ctx.lineTo(970.6, 469.0);
-      ctx.lineTo(902.6, 491.6);
-      ctx.lineTo(902.6, 500.6);
-      ctx.lineTo(878.6, 508.6);
-      ctx.lineTo(864.3, 508.6);
-      ctx.lineTo(829.0, 521.3);
-      ctx.lineTo(828.0, 496.0);
-      ctx.lineTo(807.3, 483.6);
-      ctx.lineTo(805.3, 425.0);
-      ctx.lineTo(900.0, 397.3);
+                        ctx.moveTo(841.771,528.705);
+                        ctx.lineTo(783.861,547.657);
+                        ctx.lineTo(783.41,554.577);
+                        ctx.lineTo(760.698,562.85);
+                        ctx.lineTo(752.124,561.496);
+                        ctx.lineTo(719.183,573.379);
+                        ctx.lineTo(718.732,550.967);
+                        ctx.lineTo(700.381,539.686);
+                        ctx.lineTo(698.125,491.102);
+                        ctx.lineTo(780.101,465.982);
+                        ctx.lineTo(806.123,481.175);
+                        ctx.lineTo(847.336,485.085);
+                        ctx.lineTo(854.856,488.695);
+                        ctx.lineTo(854.556,506.144);
+                        ctx.lineTo(841.771,528.705);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -129,44 +134,41 @@
                     name        : '4',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
                     external_link: 'entry-hall.php',
-                    pointer_pos : [979.5, 492.0],
+                    pointer_pos : [870.5, 552.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(903.8, 492.6);
-      ctx.lineTo(971.7, 470.3);
-      ctx.lineTo(979.9, 474.7);
-      ctx.lineTo(1096.7, 435.1);
-      ctx.lineTo(1093.4, 432.0);
-      ctx.lineTo(1138.1, 417.2);
-      ctx.lineTo(1190.5, 442.5);
-      ctx.lineTo(1190.5, 456.5);
-      ctx.lineTo(1146.5, 481.5);
-      ctx.lineTo(1146.5, 484.5);
-      ctx.lineTo(1123.5, 492.5);
-      ctx.lineTo(1123.5, 498.5);
-      ctx.lineTo(1109.6, 503.8);
-      ctx.lineTo(1109.1, 511.8);
-      ctx.lineTo(1118.4, 518.1);
-      ctx.lineTo(1117.6, 520.0);
-      ctx.lineTo(1076.6, 535.4);
-      ctx.lineTo(1074.1, 534.3);
-      ctx.lineTo(1015.3, 556.8);
-      ctx.lineTo(1013.7, 558.2);
-      ctx.lineTo(987.6, 567.6);
-      ctx.lineTo(987.0, 569.5);
-      ctx.lineTo(968.9, 576.9);
-      ctx.lineTo(944.4, 559.6);
-      ctx.lineTo(885.6, 581.0);
-      ctx.lineTo(879.3, 576.9);
-      ctx.lineTo(876.0, 579.1);
-      ctx.lineTo(841.6, 552.7);
-      ctx.lineTo(835.8, 554.6);
-      ctx.lineTo(803.7, 529.6);
-      ctx.lineTo(866.1, 508.5);
-      ctx.lineTo(879.3, 508.7);
-      ctx.lineTo(903.7, 499.1);
-      ctx.lineTo(903.7, 499.1);
-      ctx.lineTo(903.8, 492.6);
+                        ctx.moveTo(697.08,580.646);
+                        ctx.lineTo(752.111,561.427);
+                        ctx.lineTo(760.691,562.815);
+                        ctx.lineTo(783.407,554.56);
+                        ctx.lineTo(783.86,547.648);
+                        ctx.lineTo(841.77,528.701);
+                        ctx.lineTo(849.561,532.934);
+                        ctx.lineTo(949.332,498.065);
+                        ctx.lineTo(948.313,495.775);
+                        ctx.lineTo(953.149,494.249);
+                        ctx.lineTo(986.236,483.05);
+                        ctx.lineTo(1033.069,506.465);
+                        ctx.lineTo(1032.052,524.281);
+                        ctx.lineTo(994.128,539.043);
+                        ctx.lineTo(993.365,541.843);
+                        ctx.lineTo(973.258,550.751);
+                        ctx.lineTo(972.725,554.568);
+                        ctx.lineTo(961.5,558.641);
+                        ctx.lineTo(961.5,566);
+                        ctx.lineTo(969.694,571.366);
+                        ctx.lineTo(933.553,585.874);
+                        ctx.lineTo(931.517,584.602);
+                        ctx.lineTo(855.416,613.362);
+                        ctx.lineTo(855.162,615.144);
+                        ctx.lineTo(840.145,620.743);
+                        ctx.lineTo(819.019,606.746);
+                        ctx.lineTo(767.862,625.324);
+                        ctx.lineTo(760.989,622.018);
+                        ctx.lineTo(758.953,623.544);
+                        ctx.lineTo(729.429,601.146);
+                        ctx.lineTo(725.102,603.183);
+                        ctx.lineTo(697.08,580.646);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -193,99 +195,96 @@
                     name        : '5',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
                     external_link: 'ice-arena.php',
-                    pointer_pos : [212.3, 558.6],
+                    pointer_pos : [202.3, 598.6],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(127.1, 454.6);
-                        ctx.lineTo(208.3, 435.6);
-                        ctx.lineTo(210.8, 439.6);
-                        ctx.lineTo(231.5, 434.0);
-                        ctx.lineTo(233.0, 436.1);
-                        ctx.lineTo(253.8, 430.6);
-                        ctx.lineTo(262.5, 442.5);
-                        ctx.lineTo(271.1, 444.3);
-                        ctx.lineTo(279.6, 447.6);
-                        ctx.lineTo(303.0, 440.6);
-                        ctx.lineTo(309.8, 448.1);
-                        ctx.lineTo(310.8, 454.6);
-                        ctx.lineTo(336.0, 486.5);
-                        ctx.lineTo(349.1, 496.6);
-                        ctx.lineTo(350.0, 502.0);
-                        ctx.lineTo(360.5, 507.8);
-                        ctx.lineTo(361.5, 516.6);
-                        ctx.lineTo(372.1, 521.6);
-                        ctx.lineTo(372.8, 531.1);
-                        ctx.lineTo(383.8, 536.8);
-                        ctx.lineTo(384.5, 547.1);
-                        ctx.lineTo(396.1, 551.8);
-                        ctx.lineTo(397.5, 563.1);
-                        ctx.lineTo(409.3, 569.0);
-                        ctx.lineTo(410.5, 579.5);
-                        ctx.lineTo(424.1, 585.8);
-                        ctx.lineTo(424.5, 596.3);
-                        ctx.lineTo(438.1, 602.6);
-                        ctx.lineTo(439.3, 614.8);
-                        ctx.lineTo(453.8, 621.8);
-                        ctx.lineTo(453.5, 633.6);
-                        ctx.lineTo(469.6, 641.8);
-                        ctx.lineTo(469.3, 646.6);
-                        ctx.lineTo(473.1, 650.6);
-                        ctx.lineTo(478.5, 677.3);
-                        ctx.lineTo(450.0, 687.5);
-                        ctx.lineTo(449.6, 690.3);
-                        ctx.lineTo(416.1, 702.1);
-                        ctx.lineTo(412.2, 698.6);
-                        ctx.lineTo(249.6, 755.0);
-                        ctx.lineTo(250.8, 760.3);
-                        ctx.lineTo(209.6, 774.1);
-                        ctx.lineTo(207.6, 772.0);
-                        ctx.lineTo(173.6, 783.8);
-                        ctx.lineTo(166.8, 768.1);
-                        ctx.lineTo(162.5, 754.5);
-                        ctx.lineTo(148.0, 759.8);
-                        ctx.lineTo(145.0, 748.0);
-                        ctx.lineTo(157.1, 731.1);
-                        ctx.lineTo(156.1, 729.0);
-                        ctx.lineTo(138.8, 735.6);
-                        ctx.lineTo(135.5, 725.0);
-                        ctx.lineTo(147.3, 708.1);
-                        ctx.lineTo(146.5, 706.6);
-                        ctx.lineTo(130.1, 712.3);
-                        ctx.lineTo(126.8, 701.8);
-                        ctx.lineTo(138.1, 685.1);
-                        ctx.lineTo(137.1, 684.1);
-                        ctx.lineTo(120.6, 690.1);
-                        ctx.lineTo(117.5, 680.6);
-                        ctx.lineTo(128.8, 665.3);
-                        ctx.lineTo(127.5, 663.6);
-                        ctx.lineTo(112.0, 668.8);
-                        ctx.lineTo(109.5, 659.0);
-                        ctx.lineTo(119.0, 643.8);
-                        ctx.lineTo(104.5, 648.8);
-                        ctx.lineTo(101.1, 638.6);
-                        ctx.lineTo(110.5, 626.1);
-                        ctx.lineTo(109.6, 625.0);
-                        ctx.lineTo(97.1, 629.5);
-                        ctx.lineTo(93.8, 619.8);
-                        ctx.lineTo(102.6, 608.3);
-                        ctx.lineTo(102.0, 606.3);
-                        ctx.lineTo(89.3, 610.6);
-                        ctx.lineTo(86.8, 600.6);
-                        ctx.lineTo(94.8, 591.1);
-                        ctx.lineTo(82.5, 592.6);
-                        ctx.lineTo(79.0, 583.3);
-                        ctx.lineTo(87.0, 572.6);
-                        ctx.lineTo(86.0, 572.1);
-                        ctx.lineTo(75.5, 575.5);
-                        ctx.lineTo(72.3, 566.3);
-                        ctx.lineTo(84.1, 551.6);
-                        ctx.lineTo(75.8, 529.3);
-                        ctx.lineTo(92.1, 505.6);
-                        ctx.lineTo(80.6, 474.1);
-                        ctx.lineTo(106.1, 468.1);
-                        ctx.lineTo(105.3, 462.6);
-                        ctx.lineTo(126.8, 457.8);
-                        ctx.lineTo(127.1, 454.6);
+                      ctx.moveTo(70.568,531.771);
+                      ctx.lineTo(92.089,526.589);
+                      ctx.lineTo(90.677,522.759);
+                      ctx.lineTo(110.5,518.221);
+                      ctx.lineTo(110.5,515);
+                      ctx.lineTo(180.852,499.463);
+                      ctx.lineTo(184.037,501.587);
+                      ctx.lineTo(201.378,497.693);
+                      ctx.lineTo(202.794,499.109);
+                      ctx.lineTo(220.135,494.509);
+                      ctx.lineTo(227.921,505.479);
+                      ctx.lineTo(241.724,508.665);
+                      ctx.lineTo(262.958,503.356);
+                      ctx.lineTo(291.979,543.348);
+                      ctx.lineTo(303.304,549.01);
+                      ctx.lineTo(304.011,556.088);
+                      ctx.lineTo(312.505,560.335);
+                      ctx.lineTo(313.567,568.475);
+                      ctx.lineTo(322.769,573.076);
+                      ctx.lineTo(323.83,581.924);
+                      ctx.lineTo(334.094,587.586);
+                      ctx.lineTo(335.155,595.726);
+                      ctx.lineTo(344.357,600.327);
+                      ctx.lineTo(345.064,608.467);
+                      ctx.lineTo(356.036,614.837);
+                      ctx.lineTo(356.39,622.977);
+                      ctx.lineTo(367.715,629.347);
+                      ctx.lineTo(369.838,640.318);
+                      ctx.lineTo(380.102,644.211);
+                      ctx.lineTo(381.163,654.12);
+                      ctx.lineTo(392.842,660.491);
+                      ctx.lineTo(393.55,671.108);
+                      ctx.lineTo(406.291,676.771);
+                      ctx.lineTo(406.999,681.726);
+                      ctx.lineTo(410.538,686.681);
+                      ctx.lineTo(414.077,708.27);
+                      ctx.lineTo(391.78,716.409);
+                      ctx.lineTo(390.719,718.887);
+                      ctx.lineTo(361.344,729.504);
+                      ctx.lineTo(358.965,727.026);
+                      ctx.lineTo(217.5,775.865);
+                      ctx.lineTo(217.5,780);
+                      ctx.lineTo(181.914,792.499);
+                      ctx.lineTo(180.144,790.376);
+                      ctx.lineTo(150.416,800.639);
+                      ctx.lineTo(140.86,775.157);
+                      ctx.lineTo(129.535,779.404);
+                      ctx.lineTo(125.996,770.557);
+                      ctx.lineTo(135.905,757.462);
+                      ctx.lineTo(135.198,754.277);
+                      ctx.lineTo(121.396,758.523);
+                      ctx.lineTo(118.21,748.261);
+                      ctx.lineTo(127.766,736.228);
+                      ctx.lineTo(126.704,733.043);
+                      ctx.lineTo(112.548,738.705);
+                      ctx.lineTo(110.424,730.211);
+                      ctx.lineTo(119.979,715.701);
+                      ctx.lineTo(105.116,718.532);
+                      ctx.lineTo(102.992,711.454);
+                      ctx.lineTo(111.486,697.651);
+                      ctx.lineTo(110.875,696.375);
+                      ctx.lineTo(98.875,701.25);
+                      ctx.lineTo(95.875,691.875);
+                      ctx.lineTo(104.75,679.5);
+                      ctx.lineTo(104,678.75);
+                      ctx.lineTo(91.125,682.75);
+                      ctx.lineTo(88.5,675);
+                      ctx.lineTo(96.75,663.5);
+                      ctx.lineTo(96.25,662.375);
+                      ctx.lineTo(85,666.75);
+                      ctx.lineTo(81.125,657.75);
+                      ctx.lineTo(90,647.75);
+                      ctx.lineTo(89.5,646.5);
+                      ctx.lineTo(77.625,651);
+                      ctx.lineTo(74.875,642.125);
+                      ctx.lineTo(82.625,633.125);
+                      ctx.lineTo(81.875,631.5);
+                      ctx.lineTo(71.625,635.375);
+                      ctx.lineTo(68.25,627.375);
+                      ctx.lineTo(75.75,619.25);
+                      ctx.lineTo(75.25,617.375);
+                      ctx.lineTo(66,620.375);
+                      ctx.lineTo(63.625,612.25);
+                      ctx.lineTo(72,599.25);
+                      ctx.lineTo(65.75,581.25);
+                      ctx.lineTo(80.375,560);
+                      ctx.lineTo(70.568,531.771);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',

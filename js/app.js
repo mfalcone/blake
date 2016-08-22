@@ -205,6 +205,7 @@ handleAssetsLoad = function ( evt )
     
     $('.btn_areas_list').mouseenter(function() 
     {   
+
         enableSideBar();                                
     });
 
