@@ -34,7 +34,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$10M,000</span>',
+                        text: '<span>$10,000,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -74,7 +74,7 @@
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '1m',
+                    name        : '$1M',
                     naming_opp  : 'athletic-field/af-1m.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
@@ -92,7 +92,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$1M,000</span>',
+                        text: '<span>$1,000,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -104,7 +104,7 @@
                     //==================================
                     name        : '24',
                     naming_opp  : 'athletic-field/b.turf-multiplex.html',
-                    pointer_pos : [800.5, 550.0],
+                    pointer_pos : [802.5, 510.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(749.5, 439.5);
@@ -160,7 +160,7 @@
                     //==================================
                     name        : '25',
                     naming_opp  : 'athletic-field/c.upper-courts.html',
-                    pointer_pos : [1020.5, 410.0],
+                    pointer_pos : [1073.5, 335.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(1068.3, 340.6);
@@ -188,7 +188,7 @@
                     //==================================
                     name        : '27',
                     naming_opp  : 'athletic-field/d.lower-courts.html',
-                    pointer_pos : [750.5, 400.0],
+                    pointer_pos : [750.5, 360.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(682.5, 364.5);
@@ -239,6 +239,48 @@
                         align: 'center'            
                     }        
                 }    ,
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '32-5',
+                    naming_opp  : 'athletic-field/i.lower-school-playground.html',
+                    pointer_pos : [905.5, 560.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(905.5, 543.0);
+                          ctx.lineTo(911.4, 543.0);
+                          ctx.lineTo(916.9, 542.1);
+                          ctx.lineTo(921.8, 543.1);
+                          ctx.lineTo(925.4, 545.4);
+                          ctx.lineTo(927.7, 549.3);
+                          ctx.lineTo(928.5, 553.7);
+                          ctx.lineTo(928.2, 557.6);
+                          ctx.lineTo(926.4, 562.2);
+                          ctx.lineTo(914.8, 572.8);
+                          ctx.lineTo(908.3, 575.9);
+                          ctx.lineTo(900.3, 576.7);
+                          ctx.lineTo(893.9, 575.1);
+                          ctx.lineTo(888.5, 571.3);
+                          ctx.lineTo(886.4, 563.8);
+                          ctx.lineTo(888.5, 556.6);
+                          ctx.lineTo(893.6, 549.8);
+                          ctx.lineTo(899.1, 545.7);
+                          ctx.lineTo(905.5, 544.0);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Lower School Playground',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
 
                 
                 //==================================
@@ -275,11 +317,11 @@
                     //==================================
                     name        : '26',
                     naming_opp  : 'athletic-field/f.individual-courts.html',
-                    pointer_pos : [990.5, 440.0],
+                    pointer_pos : [960.5, 444.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(981.2, 419.8);
-                          ctx.lineTo(1008.8, 452.3);
+                          ctx.lineTo(1006.8, 452.3);
                           ctx.lineTo(990.3, 462.2);
                           ctx.lineTo(964.2, 431.3);
                           ctx.lineTo(981.2, 419.8);
@@ -304,7 +346,7 @@
                     //==================================
                     name        : '28',
                     naming_opp  : 'athletic-field/g.individual-courts.html',
-                    pointer_pos : [700.5, 400.0],
+                    pointer_pos : [680.5, 400.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(690.5, 378.5);
@@ -332,7 +374,7 @@
                     // Basic settings
                     //==================================
                     name        : '33',
-                    naming_opp  : 'athletic-field/h.baseball-field.html',
+                    naming_opp  : 'athletic-field/j.baseball-stadium-plaza.html',
                     pointer_pos : [1190.5, 340.0],
                     sceneFunc: function(ctx) 
                     {
@@ -379,7 +421,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$2.5M</span>',
+                        text: '<span>$2,500,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -422,6 +464,12 @@
                 }    ,
             ];
 
+        $(document).ready(function(){
+            setTimeout(function() {
+            var delta = -15;
+            executeZoom(delta, 50);
+            },4000)
+        })
     </script>                    
     <script defer="defer" src="js/app.js"></script>
 

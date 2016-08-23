@@ -34,7 +34,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$1M</span>',
+                        text: '<span>$1,000,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -65,6 +65,39 @@
                     //==================================
                     tooltip     : {                
                         text: 'Admissions Office',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '2-5',
+                    naming_opp  : 'dining-commons/i.balcony.html',
+                    pointer_pos : [875.1, 610.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(773.06, 566.28);
+                        ctx.lineTo(966.5, 566.24);
+                        ctx.lineTo(966.5, 631.5);
+                        ctx.lineTo(937.5, 631.5);
+                        ctx.lineTo(937.5, 694.5);
+                        ctx.lineTo(854.5, 694.5);
+                        ctx.lineTo(854.5, 658.5);
+                        ctx.lineTo(772.5, 658.5);
+                        ctx.lineTo(773.06, 568.28);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Balcony',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -322,7 +355,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$5M</span>',
+                        text: '<span>$5,000,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -414,8 +447,44 @@
                         align: 'center'            
                     }        
                 }    ,
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '11',
+                    naming_opp  : 'dining-commons/g.east-west-gallery.html',
+                    pointer_pos : [1080.5, 715.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(967.5, 697.5);
+                        ctx.lineTo(1208.5, 697.5);
+                        ctx.lineTo(1208.5, 735.5);
+                        ctx.lineTo(967.5, 735.5);
+                        ctx.lineTo(967.5, 717.5);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: ' East/West Gallery',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
             ];
 
+
+$(document).ready(function(){
+    setTimeout(function() {
+    var delta = -15;
+    executeZoom(delta, 50);
+    },4000)
+})
     </script>                    
     <script defer="defer" src="js/app.js"></script>
 

@@ -16,12 +16,13 @@
                     </div>
                 </div>
             </div> 
-            <div class="_10">
+            <div class="_9">
                 <?php include('menu.php'); ?>                
             </div>
-            <div class="_1 social">
-                <a target="_blank" href="https://www.facebook.com/GreenhillSchool" class="twit"></a>
-                <a target="_blank" href="https://www.twitter.com/GreenhillSchool/" class="face"></a>
+            <div class="_2 social">
+                <a target="_blank" href="https://www.facebook.com/blakeschool" class="face"></a>
+                <a target="_blank" href="https://twitter.com/LifeatBlake" class="twit"></a>
+                <a target="_blank" href="http://instagram.com/theblakeschool" class="instag"></a>
             </div>
         </div>
     </div>

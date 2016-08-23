@@ -1384,7 +1384,7 @@ ul.nav li {
   margin-top: 6px;
 }
 ul.nav li a {
-  padding: 0 20px;
+  padding: 0 10px;
   text-decoration: none;
 }
 
@@ -4408,15 +4408,22 @@ body {
   margin: 0 4px;
 }
 #header .social a.face {
-  background: url("../images/social.jpg") 0 0;
+  background: url("../images/social.jpg") 74px 0;
 }
 #header .social a.face:hover {
-  background: url("../images/social.jpg") 0 37px;
+  background: url("../images/social.jpg") 74px 37px;
 }
 #header .social a.twit {
-  background: url("../images/social.jpg") 37px 0;
+  background: url("../images/social.jpg") 0px 0;
 }
 #header .social a.twit:hover {
+  background-position: 0px 37px;
+}
+
+#header .social a.instag {
+  background: url("../images/social.jpg") 37px 0;
+}
+#header .social a.instag:hover {
   background-position: 37px 37px;
 }
 

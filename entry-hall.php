@@ -151,7 +151,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$5M,000</span>',
+                        text: '<span>$5,000,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
