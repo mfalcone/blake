@@ -17,7 +17,7 @@
                     name        : '1',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',
                     external_link: 'athletic-field.php',
-                    pointer_pos : [423.2, 372.2],
+                    pointer_pos : [445.2, 372.2],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(385.5,471.5);
@@ -43,7 +43,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Athletic Field',
+                        text: 'Athletics',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -92,7 +92,7 @@
                     name        : '3',
                     naming_opp  : 'cafeteria-building/b.bookstore.html',                    
                     external_link: 'macmillian.php',
-                    pointer_pos : [773.6, 508.6],
+                    pointer_pos : [773.6, 495.6],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(841.771,528.705);

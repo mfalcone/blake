@@ -46,7 +46,7 @@
                     //==================================
                     name        : '2',
                     naming_opp  : 'entry-hall/a.drop-off-circle.html',
-                    pointer_pos : [955.1, 638.0],
+                    pointer_pos : [955.1, 618.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(869.5, 566.0);
@@ -272,7 +272,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: ' Student Lounge in Entry Hall (reserved)',
+                        text: ' Student Lounge in Entry Hall (Reserved)',
                         fontSize: 14,                         
                         align: 'center'            
                     }        

@@ -124,7 +124,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$100</span>',
+                        text: '<span>$100,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -211,7 +211,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$75</span>',
+                        text: '<span>$75,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -298,7 +298,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$25</span>',
+                        text: '<span>$25,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -412,7 +412,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$500</span>',
+                        text: '<span>$500,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -424,7 +424,7 @@
                     //==================================
                     name        : '10',
                     naming_opp  : 'dining-commons/h.outdoor-dining-plaza.html',
-                    pointer_pos : [1100.5, 190.0],
+                    pointer_pos : [1100.5, 175.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(928.5, 155.5);

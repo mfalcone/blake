@@ -46,7 +46,7 @@
                     //==================================
                     name        : '9',
                     naming_opp  : 'mpac/a.theaters-seats.html',
-                    pointer_pos : [705.1, 638.0],
+                    pointer_pos : [715.1, 630.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(707.9, 646.4);
@@ -161,7 +161,7 @@
                     //==================================
                     name        : '8',
                     naming_opp  : 'mpac/c.green-room.html',
-                    pointer_pos : [600.1, 330.0],
+                    pointer_pos : [620.1, 340.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(507.0, 270.5);
@@ -178,7 +178,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Green room',
+                        text: 'Green Room',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -251,7 +251,7 @@
                     //==================================
                     name        : '7',
                     naming_opp  : 'mpac/e.dressing-room-1.html',
-                    pointer_pos : [695.1, 220.0],
+                    pointer_pos : [700.1, 215.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(654.5, 149.7);
