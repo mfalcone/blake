@@ -163,14 +163,14 @@
                     //==================================
                     name        : '6',
                     naming_opp  : 'entry-hall/c.entry-hall.html',
-                    pointer_pos : [950.0, 520.0],
+                    pointer_pos : [950.0, 560.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(870.0, 454.0);
-                          ctx.lineTo(1063.3, 454.0);
-                          ctx.lineTo(1063.3, 564.0);
-                          ctx.lineTo(870.0, 564.0);
-                          ctx.lineTo(870.0, 454.0);
+                        ctx.moveTo(548.0, 362.0);
+                        ctx.lineTo(1203.3, 362.0);
+                        ctx.lineTo(1203.3, 565.0);
+                        ctx.lineTo(548.0, 565.0);
+                        ctx.lineTo(548.0, 362.0);
                         
                           
                     },

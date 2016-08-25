@@ -74,62 +74,6 @@
                 //####### TITLE #######
                 //==================================
                 {
-                    name        : '$1M',
-                    naming_opp  : 'athletic-field/af-1m.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$1,000,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '24',
-                    naming_opp  : 'athletic-field/b.turf-multiplex.html',
-                    pointer_pos : [802.5, 510.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(749.5, 439.5);
-                          ctx.lineTo(855.5, 439.5);
-                          ctx.lineTo(855.5, 641.5);
-                          ctx.lineTo(749.5, 641.5);
-                          ctx.lineTo(749.5, 439.5);
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Turf Multiplex',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
                     name        : '500',
                     naming_opp  : 'athletic-field/af-500.html',
                     pointer_pos : [9999, 9999],
@@ -234,7 +178,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Concession Standar',
+                        text: 'Concession Stand',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -463,6 +407,34 @@
                         align: 'center'            
                     }        
                 }    ,
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '24',
+                    naming_opp  : 'athletic-field/b.turf-multiplex.html',
+                    pointer_pos : [802.5, 510.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(749.5, 439.5);
+                          ctx.lineTo(855.5, 439.5);
+                          ctx.lineTo(855.5, 641.5);
+                          ctx.lineTo(749.5, 641.5);
+                          ctx.lineTo(749.5, 439.5);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Turf Multiplex',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 //==================================
                 //####### TITLE #######
                 //==================================
@@ -485,7 +457,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: '<span>$25</span>',
+                        text: '<span>$25,000</span>',
                         fontSize: 16,
                         align: 'center'            
                     }        
@@ -546,6 +518,174 @@
                         align: 'center'            
                     }        
                 }    ,
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '33',
+                    naming_opp  : 'athletic-field/af-2-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$50,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '34',
+                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
+                    pointer_pos : [1380.5, 177.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1387.5, 150.5);
+                        ctx.lineTo(1415.5, 150.5);
+                        ctx.lineTo(1415.5, 175.4);
+                        ctx.lineTo(1387.5, 175.4);
+                        ctx.lineTo(1387.5, 150.5);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Flagpole',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                } ,  
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '33',
+                    naming_opp  : 'athletic-field/af-2-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$50,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '34',
+                    naming_opp  : 'athletic-field/m.flagpole.html',
+                    pointer_pos : [1380.5, 177.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1387.5, 150.5);
+                        ctx.lineTo(1415.5, 150.5);
+                        ctx.lineTo(1415.5, 175.4);
+                        ctx.lineTo(1387.5, 175.4);
+                        ctx.lineTo(1387.5, 150.5);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settinn.prek-playground.htmlgs
+                    //==================================
+                    tooltip     : {                
+                        text: 'Flagpole',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                } ,
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '35',
+                    naming_opp  : 'athletic-field/af-2-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$1,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '36',
+                    naming_opp  : 'athletic-field/n.prek-playground.html',
+                    pointer_pos : [730.5, 820.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(717.5, 800.5);
+                        ctx.lineTo(745.5, 800.5);
+                        ctx.lineTo(745.5, 825.4);
+                        ctx.lineTo(717.5, 825.4);
+                        ctx.lineTo(717.5, 800.5);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Pre-K Playground',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                } ,
             ];
 
         $(document).ready(function(){

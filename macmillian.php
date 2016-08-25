@@ -46,14 +46,14 @@
                     //==================================
                     name        : '9',
                     naming_opp  : 'mpac/a.theaters-seats.html',
-                    pointer_pos : [715.1, 630.0],
+                    pointer_pos : [662.1, 630.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(707.9, 646.4);
-                          ctx.lineTo(727.5, 640.9);
-                          ctx.lineTo(730.1, 645.2);
-                          ctx.lineTo(707.0, 651.8);
-                          ctx.lineTo(707.9, 646.4);
+                        ctx.moveTo(658.0, 642.9);
+                          ctx.lineTo(667.1, 642.9);
+                          ctx.lineTo(667.1, 652.8);
+                          ctx.lineTo(657.0, 652.8);
+                          ctx.lineTo(658.0, 642.4);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
