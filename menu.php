@@ -2,7 +2,7 @@
     @media only screen and (min-width: 1200px) 
     {
         ul.nav li a {
-            font-size: 14px;
+            font-size: 12px;
         }
         
         ul.nav li ul.submenu li a {
@@ -21,7 +21,7 @@
         <div class="bg_subnav"></div>-->
     </li>
     <li class="area sub" id="li_perform">
-        <a href="athletic-field.php"> Athletic Field</a>
+        <a href="athletic-field.php"> Athletic Facilities</a>
         <!--<ul class="submenu">
             <li><a href="gallery-performing-arts.php">Photo Gallery</a></li>
             <li><a href="performing-arts-exterior.php">Exterior</a></li>
@@ -31,7 +31,7 @@
         <div class="bg_subnav"></div>-->
     </li>
     <li class="area" id="li_cafeteria">
-        <a href="dining-commons.php">Dining Commons</a>
+        <a href="dining-commons.php">Dining Commons and Admissions</a>
         <!--<ul class="submenu">
             <li><a href="gallery-dining-hall.php">Photo Gallery</a></li>
             <li><a href="dining-hall.php">Floor Plans</a></li>

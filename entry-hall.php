@@ -11,7 +11,64 @@
         var AreasSettingsList = 
             [
                
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '5',
+                    naming_opp  : 'entry-hall/eh-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
 
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$5,000,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '6',
+                    naming_opp  : 'entry-hall/c.entry-hall.html',
+                    pointer_pos : [950.0, 450.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(548.0, 362.0);
+                        ctx.lineTo(1203.3, 362.0);
+                        ctx.lineTo(1203.3, 455.0);
+                        ctx.lineTo(548.0, 455.0);
+                        ctx.lineTo(548.0, 362.0);
+                        
+                          
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: ' Entry Hall',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 //==================================
                 //####### TITLE #######
                 //==================================
@@ -72,121 +129,8 @@
                     }        
                 }    ,
                 
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
-                    name        : '3',
-                    naming_opp  : 'entry-hall/eh-100.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$100,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '4',
-                    naming_opp  : 'entry-hall/b.welcome-security-desk.html',
-                    pointer_pos : [760.1, 510.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(722.5, 451.7);
-                          ctx.lineTo(786.2, 451.7);
-                          ctx.lineTo(786.2, 561.5);
-                          ctx.lineTo(722.5, 561.5);
-                          ctx.lineTo(722.5, 451.7);
-                          
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: ' Welcome/Security Desk',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
-                    name        : '5',
-                    naming_opp  : 'entry-hall/eh-5m.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$5,000,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '6',
-                    naming_opp  : 'entry-hall/c.entry-hall.html',
-                    pointer_pos : [950.0, 560.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(548.0, 362.0);
-                        ctx.lineTo(1203.3, 362.0);
-                        ctx.lineTo(1203.3, 565.0);
-                        ctx.lineTo(548.0, 565.0);
-                        ctx.lineTo(548.0, 362.0);
-                        
-                          
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: ' Entry Hall',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
+                
+                
                 //==================================
                 //####### TITLE #######
                 //==================================
@@ -301,7 +245,64 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Exterior Fireplace/Plaza',
+                        text: 'Exterior Fireplace/Plaza (Reserved)',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '3',
+                    naming_opp  : 'entry-hall/eh-100.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$100,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '4',
+                    naming_opp  : 'entry-hall/b.welcome-security-desk.html',
+                    pointer_pos : [760.1, 510.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(722.5, 451.7);
+                          ctx.lineTo(786.2, 451.7);
+                          ctx.lineTo(786.2, 561.5);
+                          ctx.lineTo(722.5, 561.5);
+                          ctx.lineTo(722.5, 451.7);
+                          
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: ' Welcome/Security Desk',
                         fontSize: 14,                         
                         align: 'center'            
                     }        

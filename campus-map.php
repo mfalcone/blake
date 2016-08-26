@@ -34,6 +34,60 @@
                         ctx.lineTo(600.5,384);
                         ctx.lineTo(382,434.5);
                         ctx.lineTo(385.5,471.5);
+
+                        ctx.moveTo(680.167,248.333);
+                        ctx.lineTo(758.167,256.5);
+                        ctx.lineTo(759.667,258.667);
+                        ctx.lineTo(701.833,293.5);
+                        ctx.lineTo(697.667,287.167);
+                        ctx.lineTo(694.333,286.333);
+                        ctx.lineTo(692.333,286.5);
+                        ctx.lineTo(690.333,288.833);
+                        ctx.lineTo(686.167,289.333);
+                        ctx.lineTo(683.167,288.167);
+                        ctx.lineTo(680,289.833);
+                        ctx.lineTo(676.5,289.667);
+                        ctx.lineTo(675.167,292);
+                        ctx.lineTo(675.5,294.167);
+                        ctx.lineTo(672.667,296.5);
+                        ctx.lineTo(673.167,298.5);
+                        ctx.lineTo(672.833,300.667);
+                        ctx.lineTo(671.5,303.167);
+                        ctx.lineTo(672,305.333);
+                        ctx.lineTo(671.667,309.167);
+                        ctx.lineTo(670.833,312.5);
+                        ctx.lineTo(663.5,311);
+                        ctx.lineTo(665.667,307);
+                        ctx.lineTo(664.833,305);
+                        ctx.lineTo(663.5,303.167);
+                        ctx.lineTo(663.167,300.5);
+                        ctx.lineTo(661.833,297.167);
+                        ctx.lineTo(660.167,294.333);
+                        ctx.lineTo(657,291);
+                        ctx.lineTo(653.167,289.333);
+                        ctx.lineTo(649,289.5);
+                        ctx.lineTo(646.167,290.167);
+                        ctx.lineTo(643,290);
+                        ctx.lineTo(642.833,288.333);
+                        ctx.lineTo(639.667,285);
+                        ctx.lineTo(635.333,282.333);
+                        ctx.lineTo(631.667,282.167);
+                        ctx.lineTo(627.167,282.667);
+                        ctx.lineTo(623.833,284);
+                        ctx.lineTo(621,288.167);
+                        ctx.lineTo(617.333,285.333);
+                        ctx.lineTo(616.167,282.667);
+                        ctx.lineTo(611.833,282);
+                        ctx.lineTo(680.167,248.333);
+                        
+                        ctx.moveTo(645.667,176);
+                        ctx.lineTo(780.667,224.333);
+                        ctx.lineTo(782.667,221.667);
+                        ctx.lineTo(797.333,223);
+                        ctx.lineTo(797.667,226.667);
+                        ctx.lineTo(980.667,191.333);
+                        ctx.lineTo(797.667,148);
+                        ctx.lineTo(645.667,176);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -43,7 +97,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Athletics',
+                        text: 'Athletics Facilities',
                         fontSize: 14,                         
                         align: 'center'            
                     }        

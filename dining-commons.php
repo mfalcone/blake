@@ -11,6 +11,63 @@
         var AreasSettingsList = 
             [
                
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '9',
+                    naming_opp  : 'dining-commons/dc-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$5,000,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '10',
+                    naming_opp  : 'dining-commons/g.dining-commons-ulitpurpose-room.html',
+                    pointer_pos : [1100.5, 250.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(928.5, 190.5);
+                        ctx.lineTo(1313.5, 190.5);
+                        ctx.lineTo(1313.5, 311.5);
+                        ctx.lineTo(928.5, 311.5);
+                        ctx.lineTo(928.5, 184.5);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Dining Commons /Mulitpurpose Room',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
 
                 //==================================
                 //####### TITLE #######
@@ -98,6 +155,92 @@
                     //==================================
                     tooltip     : {                
                         text: 'Balcony',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '11',
+                    naming_opp  : 'dining-commons/dc-500.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$500,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '10',
+                    naming_opp  : 'dining-commons/h.outdoor-dining-plaza.html',
+                    pointer_pos : [1100.5, 175.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(928.5, 155.5);
+                        ctx.lineTo(1315.5, 155.5);
+                        ctx.lineTo(1315.5, 190.5);
+                        ctx.lineTo(928.5, 190.5);
+                        ctx.lineTo(928.5, 155.5);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Outdoor Dining Plaza',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '11',
+                    naming_opp  : 'dining-commons/g.east-west-gallery.html',
+                    pointer_pos : [1080.5, 715.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(967.5, 697.5);
+                        ctx.lineTo(1208.5, 697.5);
+                        ctx.lineTo(1208.5, 735.5);
+                        ctx.lineTo(967.5, 735.5);
+                        ctx.lineTo(967.5, 717.5);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: ' East/West Gallery',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -333,149 +476,8 @@
                         align: 'center'            
                     }        
                 }    ,
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
-                    name        : '9',
-                    naming_opp  : 'dining-commons/dc-5m.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$5,000,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '10',
-                    naming_opp  : 'dining-commons/g.dining-commons-ulitpurpose-room.html',
-                    pointer_pos : [1100.5, 250.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(928.5, 190.5);
-                        ctx.lineTo(1313.5, 190.5);
-                        ctx.lineTo(1313.5, 311.5);
-                        ctx.lineTo(928.5, 311.5);
-                        ctx.lineTo(928.5, 184.5);
-                        
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Dining Commons /Mulitpurpose Room',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-                //==================================
-                //####### TITLE #######
-                //==================================
-                {
-                    name        : '11',
-                    naming_opp  : 'dining-commons/dc-500.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$500,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '10',
-                    naming_opp  : 'dining-commons/h.outdoor-dining-plaza.html',
-                    pointer_pos : [1100.5, 175.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(928.5, 155.5);
-                        ctx.lineTo(1315.5, 155.5);
-                        ctx.lineTo(1315.5, 190.5);
-                        ctx.lineTo(928.5, 190.5);
-                        ctx.lineTo(928.5, 155.5);
-                        
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Outdoor Dining Plaza',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-                {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '11',
-                    naming_opp  : 'dining-commons/g.east-west-gallery.html',
-                    pointer_pos : [1080.5, 715.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(967.5, 697.5);
-                        ctx.lineTo(1208.5, 697.5);
-                        ctx.lineTo(1208.5, 735.5);
-                        ctx.lineTo(967.5, 735.5);
-                        ctx.lineTo(967.5, 717.5);
-                        
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: ' East/West Gallery',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
+                
+                
             ];
 
 
