@@ -464,6 +464,34 @@
                     }        
                 } ,
 
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '31-1',
+                    naming_opp  : 'athletic-field/o.home-dugout.html',
+                    pointer_pos : [1245.5, 340.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1233.5, 325.7);
+                        ctx.lineTo(1258.4, 322.5);
+                        ctx.lineTo(1259.4, 327.4);
+                        ctx.lineTo(1234.6, 330.3);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Home Dugout',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+
                 //==================================
                 //####### TITLE #######
                 //==================================
@@ -520,6 +548,34 @@
                         align: 'center'            
                     }        
                 } , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '31',
+                    naming_opp  : 'athletic-field/p.guest-dugout.html',
+                    pointer_pos : [1160.5, 267.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1173.5, 255.7);
+                        ctx.lineTo(1178.4, 255.5);
+                        ctx.lineTo(1179.4, 282.4);
+                        ctx.lineTo(1174.6, 281.3);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Guest Dugout',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 
                 
                 //==================================
@@ -550,60 +606,8 @@
                     }        
                 }    , 
 
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '31',
-                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
-                    pointer_pos : [1160.5, 267.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(1173.5, 255.7);
-                        ctx.lineTo(1178.4, 255.5);
-                        ctx.lineTo(1179.4, 282.4);
-                        ctx.lineTo(1174.6, 281.3);
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Guest Batting Cage',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
-                 {
-                    //==================================
-                    // Basic settings
-                    //==================================
-                    name        : '31-1',
-                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
-                    pointer_pos : [1245.5, 340.0],
-                    sceneFunc: function(ctx) 
-                    {
-                        ctx.moveTo(1233.5, 325.7);
-                        ctx.lineTo(1258.4, 322.5);
-                        ctx.lineTo(1259.4, 327.4);
-                        ctx.lineTo(1234.6, 330.3);
-                    },
-                    fill        : 'rgba(170,255,0,0.3)',
-                    stroke      : '#456800',
-                    strokeWidth : 1,        
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: 'Guest Batting Cage',
-                        fontSize: 14,                         
-                        align: 'center'            
-                    }        
-                }    ,
+                
+                 
                 {
                     //==================================
                     // Basic settings
@@ -637,7 +641,7 @@
                     // Basic settings
                     //==================================
                     name        : '32',
-                    naming_opp  : 'athletic-field/l.home-batting-cage.html',
+                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
                     pointer_pos : [1160.5, 205.0],
                     sceneFunc: function(ctx) 
                     {
@@ -654,7 +658,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Home Batting Cage',
+                        text: 'Guest Batting Cage',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
