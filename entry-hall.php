@@ -45,7 +45,7 @@
                     //==================================
                     name        : '6',
                     naming_opp  : 'entry-hall/c.entry-hall.html',
-                    pointer_pos : [950.0, 450.0],
+                    pointer_pos : [870.0, 410.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(548.0, 362.0);

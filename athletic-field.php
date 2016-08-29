@@ -464,6 +464,62 @@
                     }        
                 } ,
 
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '33',
+                    naming_opp  : 'athletic-field/af-2-5m.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$50,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '34',
+                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
+                    pointer_pos : [1380.5, 177.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1387.5, 150.5);
+                        ctx.lineTo(1415.5, 150.5);
+                        ctx.lineTo(1415.5, 175.4);
+                        ctx.lineTo(1387.5, 175.4);
+                        ctx.lineTo(1387.5, 150.5);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Flagpole',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                } , 
                 
                 
                 //==================================
@@ -521,6 +577,33 @@
                         align: 'center'            
                     }        
                 }    ,
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '31-1',
+                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
+                    pointer_pos : [1245.5, 340.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(1233.5, 325.7);
+                        ctx.lineTo(1258.4, 322.5);
+                        ctx.lineTo(1259.4, 327.4);
+                        ctx.lineTo(1234.6, 330.3);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Guest Batting Cage',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 {
                     //==================================
                     // Basic settings
@@ -549,48 +632,19 @@
                         align: 'center'            
                     }        
                 }    ,
-                //==================================
-                //####### TITLE #######
-                //==================================
                 {
-                    name        : '33',
-                    naming_opp  : 'athletic-field/af-2-5m.html',
-                    pointer_pos : [9999, 9999],
-                    first_point : [9999, 9999],
-                    sceneFunc: function(ctx) 
-                    {
-                       ctx.moveTo(0,0);
-                      ctx.lineTo(0,0);
-                    }
-                        ,
-                    fill        : 'rgba(0,0,0,0)',
-                    stroke      : '#000000',
-                    strokeWidth : 0,
-
-                    //==================================
-                    // Tooltip settings
-                    //==================================
-                    tooltip     : {                
-                        text: '<span>$50,000</span>',
-                        fontSize: 16,
-                        align: 'center'            
-                    }        
-                }    , 
-
-                 {
                     //==================================
                     // Basic settings
                     //==================================
-                    name        : '34',
-                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
-                    pointer_pos : [1380.5, 177.0],
+                    name        : '32',
+                    naming_opp  : 'athletic-field/l.home-batting-cage.html',
+                    pointer_pos : [1160.5, 205.0],
                     sceneFunc: function(ctx) 
                     {
-                        ctx.moveTo(1387.5, 150.5);
-                        ctx.lineTo(1415.5, 150.5);
-                        ctx.lineTo(1415.5, 175.4);
-                        ctx.lineTo(1387.5, 175.4);
-                        ctx.lineTo(1387.5, 150.5);
+                        ctx.moveTo(1173.2, 186.5);
+                        ctx.lineTo(1184.2, 187.1);
+                        ctx.lineTo(1177.6, 228.8);
+                        ctx.lineTo(1168.5, 226.8);
                     },
                     fill        : 'rgba(170,255,0,0.3)',
                     stroke      : '#456800',
@@ -600,11 +654,12 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Flagpole',
+                        text: 'Home Batting Cage',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
-                } ,  
+                }    ,
+                 
                
             ];
 
