@@ -45,7 +45,7 @@
                     // Basic settings
                     //==================================
                     name        : '23',
-                    naming_opp  : 'kc-field/a.outdoor-athletic-complex.html',
+                    naming_opp  : 'athletic-field/a.outdoor-athletic-complex.html',
                     pointer_pos : [1445.1, 388.0],
                     sceneFunc: function(ctx) 
                     {
@@ -525,7 +525,7 @@
                     // Basic settings
                     //==================================
                     name        : '34',
-                    naming_opp  : 'athletic-field/k.guest-batting-cage.html',
+                    naming_opp  : 'athletic-field/m.flagpole.html',
                     pointer_pos : [1380.5, 177.0],
                     sceneFunc: function(ctx) 
                     {
