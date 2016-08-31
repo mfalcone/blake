@@ -15,7 +15,7 @@
                     // Basic settings
                     //==================================
                     name        : '1',
-                    naming_opp  : 'cafeteria-building/b.bookstore.html',
+                    naming_opp  : 'athletic-field.php',
                     external_link: 'athletic-field.php',
                     pointer_pos : [445.2, 372.2],
                     sceneFunc: function(ctx) 
@@ -109,7 +109,7 @@
                     // Basic settings
                     //==================================
                     name        : '2',
-                    naming_opp  : 'cafeteria-building/b.bookstore.html',
+                    naming_opp  : 'dining-commons.php',
                     external_link: 'dining-commons.php',
                     pointer_pos : [705.0, 364],
                     sceneFunc: function(ctx) 
@@ -144,7 +144,7 @@
                     // Basic settings
                     //==================================
                     name        : '3',
-                    naming_opp  : 'cafeteria-building/b.bookstore.html',                    
+                    naming_opp  : 'macmillian.php',                    
                     external_link: 'macmillian.php',
                     pointer_pos : [773.6, 495.6],
                     sceneFunc: function(ctx) 
@@ -186,7 +186,7 @@
                     // Basic settings
                     //==================================
                     name        : '4',
-                    naming_opp  : 'cafeteria-building/b.bookstore.html',                    
+                    naming_opp  : 'entry-hall.php',                    
                     external_link: 'entry-hall.php',
                     pointer_pos : [870.5, 552.0],
                     sceneFunc: function(ctx) 
@@ -247,7 +247,7 @@
                     // Basic settings
                     //==================================
                     name        : '5',
-                    naming_opp  : 'cafeteria-building/b.bookstore.html',                    
+                    naming_opp  : 'ice-arena.php',                    
                     external_link: 'ice-arena.php',
                     pointer_pos : [202.3, 598.6],
                     sceneFunc: function(ctx) 
@@ -356,6 +356,9 @@
 
 
             ];
+            $(document).ready(function(){
+             $("#sidebar").addClass("home");
+            })
 
     </script>                    
     <script defer="defer" src="js/app.js"></script>
