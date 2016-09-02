@@ -453,12 +453,12 @@
                     //==================================
                     name        : '8',
                     naming_opp  : 'dining-commons/f.admissions-coordinator-offices.html',
-                    pointer_pos : [970.5, 810.0],
+                    pointer_pos : [950.5, 810.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(929.5, 787.5);
-                        ctx.lineTo(1007.5, 787.5);
-                        ctx.lineTo(1007.5, 823.5);
+                        ctx.lineTo(967.5, 787.5);
+                        ctx.lineTo(967.5, 823.5);
                         ctx.lineTo(929.5, 823.5);
                         ctx.lineTo(929.5, 787.5);
                         
@@ -476,7 +476,35 @@
                         align: 'center'            
                     }        
                 }    ,
-                
+                 {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '8-1',
+                    naming_opp  : 'dining-commons/f.admissions-coordinator-offices.html',
+                    pointer_pos : [990.5, 810.0],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(970.5, 787.5);
+                        ctx.lineTo(1007.5, 787.5);
+                        ctx.lineTo(1007.5, 823.5);
+                        ctx.lineTo(970.5, 823.5);
+                        ctx.lineTo(970.5, 787.5);
+                        
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Admissions Coordinator Offices',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 
             ];
 

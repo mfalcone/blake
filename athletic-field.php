@@ -212,7 +212,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Lower Courts',
+                        text: 'Lower Courts Complex',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -240,7 +240,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Upper Courts',
+                        text: 'Upper Courts Complex',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
