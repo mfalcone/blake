@@ -614,7 +614,7 @@
                     //==================================
                     name        : '32',
                     naming_opp  : 'athletic-field/l.home-batting-cage.html',
-                    pointer_pos : [1345.5, 320.0],
+                    pointer_pos : [1345.5, 327.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(1325.2, 311.5);

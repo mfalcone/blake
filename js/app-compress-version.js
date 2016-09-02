@@ -252,6 +252,11 @@ function multiTouchZoom(_0xc41ax47) {
 };
 
 function openInfo(_0xc41ax4d) {
+    if($("#sidebar").hasClass("home")){
+        window.location.href = _0xc41ax4d;
+        return;
+    }
+    console.log("open Info")
     doAjaxRq(_0x488c[90], _0x488c[91] + _0xc41ax4d, null, function() {}, function(_0xc41ax4e) {
         $(_0x488c[93])[_0x488c[92]](_0xc41ax4e);
     });

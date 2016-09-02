@@ -103,7 +103,7 @@
                     //==================================
                     name        : '2',
                     naming_opp  : 'dining-commons/a.admissions-office.html',
-                    pointer_pos : [885.1, 778.0],
+                    pointer_pos : [890.1, 808.0],
                     sceneFunc: function(ctx) 
                     {
                         ctx.moveTo(851.0, 748.5);
