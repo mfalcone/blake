@@ -369,7 +369,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Individual Courts',
+                        text: 'Lower Individual Courts',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
@@ -398,7 +398,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Individual Courts',
+                        text: 'Upper Individual Courts',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
