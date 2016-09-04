@@ -195,7 +195,7 @@
                     // Basic settings
                     //==================================
                     name        : '9',
-                    naming_opp  : 'entry-hall/d.student-lounge-in-entry-hall.html',
+                    naming_opp  : 'entry-hall/d1.student-lounge-in-entry-hall.html',
                     pointer_pos : [1250.0, 320.0],
                     sceneFunc: function(ctx) 
                     {
