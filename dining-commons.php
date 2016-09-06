@@ -63,7 +63,7 @@
                     // Tooltip settings
                     //==================================
                     tooltip     : {                
-                        text: 'Dining Commons /Mulitpurpose Room',
+                        text: ' Dining Commons / Multipurpose Center',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
