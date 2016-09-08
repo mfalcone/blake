@@ -160,6 +160,7 @@
                         align: 'center'            
                     }        
                 }    ,
+                
 
                 //==================================
                 //####### TITLE #######
@@ -316,7 +317,60 @@
                         align: 'center'            
                     }        
                 }    ,
+                //==================================
+                //####### TITLE #######
+                //==================================
+                {
+                    name        : '100',
+                    naming_opp  : 'athletic-field/af-100.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                       ctx.moveTo(0,0);
+                      ctx.lineTo(0,0);
+                    }
+                        ,
+                    fill        : 'rgba(0,0,0,0)',
+                    stroke      : '#000000',
+                    strokeWidth : 0,
 
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: '<span>$250,000</span>',
+                        fontSize: 16,
+                        align: 'center'            
+                    }        
+                }    , 
+
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '24-1',
+                    naming_opp  : 'athletic-field/athletic-field-scoreboard.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(0,0);
+                        ctx.lineTo(0,0);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Athletic Field Scoreboard ',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
                 
                 //==================================
                 //####### TITLE #######
@@ -487,6 +541,32 @@
                     //==================================
                     tooltip     : {                
                         text: 'Home Dugout',
+                        fontSize: 14,                         
+                        align: 'center'            
+                    }        
+                }    ,
+                {
+                    //==================================
+                    // Basic settings
+                    //==================================
+                    name        : '31-2',
+                    naming_opp  : 'athletic-field/baseball-field-scoreboard.html',
+                    pointer_pos : [9999, 9999],
+                    first_point : [9999, 9999],
+                    sceneFunc: function(ctx) 
+                    {
+                        ctx.moveTo(0,0);
+                        ctx.lineTo(0,0);
+                    },
+                    fill        : 'rgba(170,255,0,0.3)',
+                    stroke      : '#456800',
+                    strokeWidth : 1,        
+
+                    //==================================
+                    // Tooltip settings
+                    //==================================
+                    tooltip     : {                
+                        text: 'Baseball Field Scoreboard',
                         fontSize: 14,                         
                         align: 'center'            
                     }        
