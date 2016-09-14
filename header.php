@@ -8,7 +8,7 @@
             <div class="_1">
                 <div class="outerContent">
                     <div class="innerContent">
-                        <a href="index.php">
+                        <a href="http://www.blakeschool.org/excellence">
                             <h1 class="logo">
                                 <img src="images/logo.jpg" alt="Blake School" />
                             </h1>
