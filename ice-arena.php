@@ -16,7 +16,7 @@
                 //==================================
                 {
                     name        : '1',
-                    naming_opp  : 'ice-arena/contact.html',
+                    naming_opp  : 'ice-arena/999.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -69,7 +69,7 @@
                 //==================================
                 {
                     name        : '3',
-                    naming_opp  : 'ice-arena/contact.html',
+                    naming_opp  : 'ice-arena/999.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -122,7 +122,7 @@
                 //==================================
                 {
                     name        : '5',
-                    naming_opp  : 'ice-arena/contact.html',
+                    naming_opp  : 'ice-arena/999.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -175,7 +175,7 @@
                 //==================================
                 {
                     name        : '7',
-                    naming_opp  : 'ice-arena/contact.html',
+                    naming_opp  : 'ice-arena/999.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
@@ -228,7 +228,7 @@
                 //==================================
                 {
                     name        : '9',
-                    naming_opp  : 'ice-arena/contact.html',
+                    naming_opp  : 'ice-arena/999.html',
                     pointer_pos : [9999, 9999],
                     first_point : [9999, 9999],
                     sceneFunc: function(ctx) 
